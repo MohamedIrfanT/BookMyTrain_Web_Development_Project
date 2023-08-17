@@ -1,0 +1,176 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 12%;
+    width: 100%;
+    background: linear-gradient(#213D77, #306fef);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  header button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  header a:hover {
+    text-decoration: underline;
+  }
+
+  header button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Main Section Styles */
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: -5px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+
+  th, td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background: linear-gradient(#213D77, #306fef);
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  /* Style the select element */
+  select {
+    appearance: none; /* Remove default appearance */
+    padding: 8px 20px; /* Add padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  /* Style the arrow */
+  select::after {
+    content: "\25BC"; /* Unicode character for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #333;
+  }
+  
+  /* Style the dropdown options */
+  select option {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  /* Footer Styles */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(#213D77, #306fef);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+  

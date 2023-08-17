@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BookMyTrain Payment Page</title>
+  <link rel="stylesheet" href="pay-netb.css">
+  <script src="pay-netb.js"></script>
+</head>
+<body>
+  <header>
+    <h1>BookMyTrain</h1>
+    <nav>
+      <a href="C:/Users/thali/OneDrive/Desktop/New SL/help.html">Help</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="left-side">
+      <h1>Select Payment Method</h1>
+      <form>
+        <input type="radio" onclick="window.location.href='pay-card.html';" id= "radio1" name="payment" value="card"> 
+        <label for="radio1">Credit/Debit Card</label><br>
+        <input type="radio" id="radio2" name="payment" value="bank" checked> 
+        <label for="radio2">Net Banking</label><br>
+        <input type="radio" onclick="window.location.href='pay-upi.html';" id="radio3" name="payment" value="upi"> 
+        <label for="radio3">UPI</label><br>
+      </form>
+    </div>
+    <div class="right-side">
+      <div id="bank-info" style="display:block">
+        <h2>Net Banking</h2>
+        <form>
+          <label for="bankname">Select Bank:</label>
+          <select id="bankname" name="bankname">
+            <option value="sbi">State Bank of India</option>
+            <option value="icici">ICICI Bank</option>
+            <option value="hdfc">HDFC Bank</option>
+            <option value="axis">Axis Bank</option>
+          </select><br>
+        </form>
+      </div>
+      <input type="submit" onclick="f1()" value="Make Payment">
+    </div>
+  </div>
+  <script src="payment.js"></script>
+  <footer>
+    <p>BookMyTrain - Railway Booking &copy; 2023</p>
+  </footer>
+</body>
+</html>

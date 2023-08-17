@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BookMyTrain - Search Trains</title>
+  <link rel="stylesheet" href="train.css">
+  <script src="train.js"></script>
+</head>
+<body>
+  <header>
+    <h1>BookMyTrain</h1>
+    <nav>
+      <a href="help.html">Help</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Available Trains</h2>
+    <p>Showing trains from <strong>Chennai</strong> to <strong>Villupuram</strong>.</p>
+    <table id="train-table">
+      <thead>
+        <tr>
+            <th>Train No.</th>
+            <th>Train Name</th>
+            <th>Source</th>
+            <th>Destination</th>
+            <th>Departure Time</th>
+            <th>Arrival Time</th>
+            <th>Class</th>
+            <th>Price</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="price-row" data-train-no= "101" data-class1="1500" data-class2="2500" data-class3="4000">
+            <td>101</td>
+            <td>Guruvayur</td>
+            <td>Chennai</td>
+            <td>Villupuram</td>
+            <td>10:00 AM</td>
+            <td>12:30 PM</td>
+            <td>
+              
+              <select id="class-select">
+                <option>Select Class</option>
+                <option value="class1">Second Sitting (2S)</option>
+                <option value="class2">AC Chair Car (CC)</option>
+                <option value="class3">Sleeper (SL)</option>
+              </select>
+              
+            </td>
+            <td class="price-cell">--</td>
+            <td><button id="b1" type="submit" onclick="window.location.href='passenger.html';">Book Now</button></td>
+          </tr>
+          <tr class="price-row" data-train-no= "102" data-class1="2000" data-class2="3500" data-class3="5000">
+            <td>102</td>
+            <td>Vaigai</td>
+            <td>Chennai</td>
+            <td>Villupuram</td>
+            <td>2:00 PM</td>
+            <td>4:15 PM</td>
+            <td>
+              
+              <select id="class-select">
+                <option>Select Class</option>
+                <option value="class1">Second Sitting (2S)</option>
+                <option value="class2">AC Chair Car (CC)</option>
+                <option value="class3">Sleeper (SL)</option>
+              </select>
+              
+            </td>
+            <td class="price-cell">--</td>
+            <td><button id="b2" type="submit" onclick="window.location.href='passenger.html';">Book Now</button></td>
+          </tr>
+          <tr class="price-row" data-train-no= "103" data-class1="3000" data-class2="4500" data-class3="6000">
+            <td>103</td>
+            <td>Pallavan</td>
+            <td>Chennai</td>
+            <td>Villupuram</td>
+            <td>4:00 PM</td>
+            <td>6:00 PM</td>
+            <td>
+            
+              <select id="class-select">
+                <option>Select Class</option>
+                <option value="class1">Second Sitting (2S)</option>
+                <option value="class2">AC Chair Car (CC)</option>
+                <option value="class3">Sleeper (SL)</option>
+              </select>
+              
+            </td>
+            <td class="price-cell">--</td>
+            <td><button id="b3" type="submit" onclick="window.location.href='passenger.html';">Book Now</button></td>
+          </tr>
+      </tbody>
+    </table>
+  <footer>
+    <p>BookMyTrain - Railway Booking &copy; 2023</p>
+  </footer>
+</body>
+</html>

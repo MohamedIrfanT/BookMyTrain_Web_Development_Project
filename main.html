@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BookMyTrain - Railway Booking</title>
+  <link rel="stylesheet" href="main.css">
+  <script></script>
+</head>
+<body>
+  <header>
+    <h1>BookMyTrain</h1>
+    <nav>
+      <a href="help.html">Help</a>
+    </nav>
+  </header>
+  <div class="container">
+    <form>
+      <label for="from">From:</label>
+      <input type="text" id="from" name="from" required><br><br>
+      <label for="to">To:</label>
+      <input type="text" id="to" name="to" required><br><br>
+      <label for="date">Journey Date:</label>
+      <input type="date" id="date" name="date" required><br><br>
+      <label for="class">Class:</label>
+      <select id="class" name="class">
+        <option>All Classes</option>
+        <option value="first">First Class</option>
+        <option value="second">Second Class</option>
+        <option value="sleeper">Sleeper</option>
+      </select><br><br>
+  
+      <input type="submit" onclick="window.location.href='train.html';" value="Search Trains">
+    </form>
+
+    <div class="img-container">
+      <img src="Images/logo.png">
+    </div>
+  </div>
+
+  <footer>
+    <p>BookMyTrain - Railway Booking &copy; 2023</p>
+  </footer>
+
+</body>
+</html>

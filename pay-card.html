@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BookMyTrain Payment Page</title>
+  <link rel="stylesheet" href="pay-card.css">
+  <script src="pay-card.js"></script>
+</head>
+<body>
+  <header>
+    <h1>BookMyTrain</h1>
+    <nav>
+      <a href="C:/Users/thali/OneDrive/Desktop/New SL/help.html">Help</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="left-side">
+      <h1>Select Payment Method</h1>
+      <form>
+        <input type="radio" id= "radio1" name="payment" value="card" checked> 
+        <label for="radio1">Credit/Debit Card</label><br>
+        <input type="radio" onclick="window.location.href='pay-netb.html';" id="radio2" name="payment" value="bank"> 
+        <label for="radio2">Net Banking</label><br>
+        <input type="radio" onclick="window.location.href='pay-upi.html';" id="radio3" name="payment" value="upi"> 
+        <label for="radio3">UPI</label><br>
+      </form>
+    </div>
+    <div class="right-side">
+      <div id="card-info">
+        <h2>Credit/Debit Card</h2>
+        <form>
+          <label for="cardnumber">Card Number:</label>
+          <input type="text" id="cardnumber" name="cardnumber" required><br>
+          <label for="cardname">Name on Card:</label>
+          <input type="text" id="cardname" name="cardname" required><br>
+          <label for="expirydate">Expiry Date:</label>
+          <input type="text" id="expirydate" name="expirydate" placeholder="MM/YY" required><br>
+          <label for="cvv">CVV:</label>
+          <input type="password" id="cvv" name="cvv" minlength="3" maxlength="4" required><br>
+        </form>
+      </div>
+      <input type="submit" onclick="f1()" value="Make Payment">
+    </div>
+  </div>
+  <script src="payment.js"></script>
+  <footer>
+    <p>BookMyTrain - Railway Booking &copy; 2023</p>
+  </footer>
+</body>
+</html>

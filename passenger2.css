@@ -1,0 +1,147 @@
+/* Reset styles for cross-browser consistency */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/pexels-febi-ariyanto-2101790 (1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 12%;
+    width: 100%;
+    background: linear-gradient(#213D77, #306fef);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  /* Container styles */
+  .container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 87px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    height: 820px;
+    box-shadow: 2px 2px 10px black;
+  }
+
+  h2 {
+    margin-bottom: -5px;
+    margin-top: 0px;
+  }
+
+  h3 {
+    text-decoration: underline;
+    margin-top: 25px;
+  }
+  
+  form {
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="month"],
+  input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: #4f4f4f;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #2f2e2e;
+  }
+
+  #paynow {
+    margin-left: 10px;
+    background-color: #4CAF50;
+    transition: background-color 0.3s ease;
+  }
+
+  #paynow:hover {
+    background-color: #3e8e41;
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(#213D77, #306fef);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+  

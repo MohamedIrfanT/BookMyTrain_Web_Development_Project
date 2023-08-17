@@ -1,0 +1,170 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('C:/Users/thali/OneDrive/Desktop/New SL/Images/pexels-dmitry-alexandrovich-1771670.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Header Styles */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 12%;
+    width: 100%;
+    background: linear-gradient(#213D77, #306fef);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  header button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  header a:hover {
+    text-decoration: underline;
+  }
+
+  header button:hover {
+    background-color: #3e8e41;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+  .container {
+    max-width: 770px;
+    margin: 0 auto;
+    margin-top: 84px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 2px 2px 10px black;
+  }
+  
+  /* Left container styles */
+  .left-side {
+    width: 300px;
+    margin-right: 40px;
+  }
+  
+  .left-side h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .left-side form {
+    margin-top: 20px;
+  }
+  
+  .left-side input[type="radio"] {
+    margin-bottom: 15px;
+  }
+  
+  /* Right container styles */
+  .right-side {
+    width: 400px;
+  }
+  
+  .right-side h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .right-side form {
+    margin-top: 20px;
+  }
+  
+  .right-side label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .right-side input[type="text"],
+  .right-side input[type="password"],
+  .right-side select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+  }
+  
+  .right-side input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .right-side input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Card info styles */
+  #card-info {
+    display: block;
+  }
+  
+  /* Footer Styles */
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(#213D77, #306fef);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+  

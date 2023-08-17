@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Passenger Details - BookMyTrain</title>
+  <link rel="stylesheet" href="passenger2.css">
+  <script src="passenger.js"></script>
+</head>
+<body>
+  <header>
+    <h1>BookMyTrain</h1>
+    <nav>
+      <a href="help.html">Help</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Passenger Details</h2>
+    <form id="passenger-form">
+      <h3>Passenger #1:</h3>
+      <div class="form-group">
+        <label for="passenger-name">Passenger Name</label>
+        <input type="text" id="passenger-name" name="passenger-name" required>
+      </div>
+      <div class="form-group">
+        <label for="passenger-age">Passenger Age</label>
+        <input type="number" id="passenger-age" name="passenger-age" required>
+      </div>
+      <div class="form-group">
+        <label for="passenger-gender">Passenger Gender</label>
+        <select id="passenger-gender" name="passenger-gender" required>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="passenger-seat">Seat Preference</label>
+        <select id="passenger-seat" name="passenger-seat">
+          <option value="">No Preference</option>
+          <option value="window">Window</option>
+          <option value="aisle">Aisle</option>
+        </select>
+      </div>
+
+      
+      <h3>Passenger #2:</h3>
+      <div class="form-group">
+        <label for="passenger-name">Passenger Name</label>
+        <input type="text" id="passenger-name" name="passenger-name" required>
+      </div>
+      <div class="form-group">
+        <label for="passenger-age">Passenger Age</label>
+        <input type="number" id="passenger-age" name="passenger-age" required>
+      </div>
+      <div class="form-group">
+        <label for="passenger-gender">Passenger Gender</label>
+        <select id="passenger-gender" name="passenger-gender" required>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="passenger-seat">Seat Preference</label>
+        <select id="passenger-seat" name="passenger-seat">
+          <option value="">No Preference</option>
+          <option value="window">Window</option>
+          <option value="aisle">Aisle</option>
+        </select>
+      </div>
+      
+      <button type="submit" onclick="f1()">Add Passenger</button>
+      <button id="paynow" type="submit" onclick="window.location.href='C:/Users/thali/OneDrive/Desktop/New SL/Payment/pay-card.html';">Pay Now</button>
+
+    </form>
+  </div>
+  
+  <footer>
+    <p>BookMyTrain - Railway Booking &copy; 2023</p>
+  </footer>
+  
+  <script src="passenger.js"></script>
+</body>
+</html>
